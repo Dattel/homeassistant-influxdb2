@@ -1,0 +1,6 @@
+reporting-disabled = false
+engine-path = "/data/influxdb2/engine"
+bolt-path = "/data/influxdb2/influxd.bolt"
+sqlite-path = "/data/influxdb2/influxd.sqlite"
+http-read-timeout = "10s"
+http-write-timeout = "10s"
