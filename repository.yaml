@@ -1,5 +1,5 @@
 {
   name: Dattels repository for Homeassistant Addons
-  url: https://github.com/Dattel/repository
+  url: https://github.com/Dattel/homeassistant-influxdb2
   maintainer: Dattel
 }
