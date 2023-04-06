@@ -34,9 +34,9 @@ RUN \
 COPY rootfs /
 
 # Fix perms -> not necessary due too appamor.txt
-#RUN chmod 755 /etc/s6-overlay/s6-rc.d/init-influxdb2/run
-#RUN chmod 755 /etc/s6-overlay/s6-rc.d/influxdb2-server/run
-#RUN chmod 755 /etc/s6-overlay/s6-rc.d/influxdb2-server/finish
+RUN chmod 755 /etc/s6-overlay/s6-rc.d/init-influxdb2/run
+RUN chmod 755 /etc/s6-overlay/s6-rc.d/influxdb2-server/run
+RUN chmod 755 /etc/s6-overlay/s6-rc.d/influxdb2-server/finish
 
 # Build arguments
 ARG BUILD_ARCH
