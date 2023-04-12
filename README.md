@@ -1,4 +1,21 @@
 # Home Assistant Add-ons: InfluxDB2
+
+![HA Ingress Support][influxdb2-ingressSupport]
+![Local Build][influxdb2-local-build]
+
+![GitHub Release][influxdb2-releases-shield]
+![Project Stage][influxdb2-project-stage-shield]
+[![License][influxdb2-license-shield]](LICENSE.md)
+
+![Supports amd64 Architecture][influxdb2-amd64-shield]
+![Supports aarch64 Architecture][influxdb2-aarch64-shield]
+![Supports armhf Architecture][influxdb2-armhf-shield]
+![Supports armv7 Architecture][influxdb2-armv7-shield]
+![Supports i386 Architecture][influxdb2-i386-shield]
+
+![Project Maintenance][influxdb2-maintenance-shield]
+[![GitHub Activity][influxdb2-commits-shield]][commits]
+
 Homeassistant Addon for InfluxDB2
 
 Scalable datastore for metrics, events, and real-time analytics.
@@ -80,3 +97,16 @@ SOFTWARE.
 [githubDiscussions]: https://github.com/hassio-addons/addon-influxdb/discussions
 [discord-ha]: https://discord.com/invite/home-assistant
 [forum]: https://community.home-assistant.io/
+
+[influxdb2-local-build]: https://img.shields.io/badge/Home%20Assistant%20--%20local%20build-YES-orange.svg
+[influxdb2-ingressSupport]: https://img.shields.io/badge/Home%20Assistant%20--%20ingress%20support-NO-red
+[influxdb2-aarch64-shield]: https://img.shields.io/badge/aarch64-untested-orange.svg
+[influxdb2-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[influxdb2-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[influxdb2-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+
+[influxdb2-maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
+[influxdb2-project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
+[influxdb2-license-shield]: https://img.shields.io/github/license/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
+[commits]: https://github.com/Dattel/homeassistant-influxdb2/commits/main
