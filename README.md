@@ -10,7 +10,7 @@ It's useful for recording metrics, sensor data, events,
 and performing analytics. It exposes an HTTP API for client interaction and is
 often used in combination with Grafana to visualize the data.
 
-This add-on is built on the InfluxDB v2.x build. \
+This add-on is built on the InfluxDB v2.x build.
 
 ## FAQ
 - Why make another add-on and why not just upgrade the current [InfluxDB v1.x Community Add-on][Influxdbv1]?
