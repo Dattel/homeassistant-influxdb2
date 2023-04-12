@@ -3,7 +3,6 @@
 ![HA Ingress Support][influxdb2-ingressSupport]
 ![Local Build][influxdb2-local-build]
 
-![GitHub Release][influxdb2-releases-shield]
 ![Project Stage][influxdb2-project-stage-shield]
 [![License][influxdb2-license-shield]](LICENSE.md)
 
@@ -12,9 +11,8 @@
 ![Supports armhf Architecture][influxdb2-armhf-shield]
 ![Supports armv7 Architecture][influxdb2-armv7-shield]
 ![Supports i386 Architecture][influxdb2-i386-shield]
-
 ![Project Maintenance][influxdb2-maintenance-shield]
-[![GitHub Activity][influxdb2-commits-shield]][commits]
+
 
 Homeassistant Addon for InfluxDB2
 
