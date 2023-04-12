@@ -40,9 +40,9 @@ This is an active open-source project. Please use the code or contribute to it.
 
 ## Authors & contributors
 
-This repository is maintained by [Daniel][dattel]
-The original idea behind the InfluxDB2 Addon setup is by [Jay Antoney][jantoney]. \
-However I used the InfluxDB v1.x add-on from [Franck Nijhof][frenck] for some inspiration.
+This repository is maintained by [Daniel][dattel] \
+But the original idea behind the InfluxDB2 Addon setup is by [Jay Antoney][jantoney]. \
+However we are both using the InfluxDB v1.x add-on from [Franck Nijhof][frenck] for some inspiration.
 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
