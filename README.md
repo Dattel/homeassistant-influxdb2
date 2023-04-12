@@ -26,6 +26,11 @@ Got questions?
 
 You have several options to get them answered:
 
+- Try the [discussion page][githubDiscussions] here on GitHub
+- The [Home Assistant Discord chat server][discord-ha] for general Home
+  Assistant discussions and questions
+- The Home Assistant [Community Forum][forum].
+
 You could also [open an issue here][issue] on GitHub.
 
 ## Contributing
@@ -70,3 +75,5 @@ SOFTWARE.
 [frenck]: https://github.com/frenck
 [contributors]: https://github.com/Dattel/homeassistant-influxdb2/graphs/contributors
 [issue]: https://github.com/Dattel/homeassistant-influxdb2/issues
+[githubDiscussions]: https://github.com/hassio-addons/addon-influxdb/discussions
+[discord-ha]: https://discord.com/invite/home-assistant
