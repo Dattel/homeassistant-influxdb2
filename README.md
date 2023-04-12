@@ -2,7 +2,7 @@
 
 ![HA Ingress Support][influxdb2-ingressSupport]
 ![Local Build][influxdb2-local-build]
-
+![GitHub Release][influxdb2-releases-shield]
 ![Project Stage][influxdb2-project-stage-shield]
 [![License][influxdb2-license-shield]](LICENSE.md)
 
@@ -12,6 +12,7 @@
 ![Supports armv7 Architecture][influxdb2-armv7-shield]
 ![Supports i386 Architecture][influxdb2-i386-shield]
 ![Project Maintenance][influxdb2-maintenance-shield]
+[![GitHub Activity][influxdb2-commits-shield]][commits]
 
 
 Homeassistant Addon for InfluxDB2
@@ -103,6 +104,8 @@ SOFTWARE.
 [influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [influxdb2-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [influxdb2-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[influxdb2-releases-shield]: https://img.shields.io/github/v/release/Dattel/homeassistant-influxdb2.svg
+[influxdb2-commits-shield]: https://img.shields.io/github/commit-activity/y/Dattel/homeassistant-influxdb2.svg
 
 [influxdb2-maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [influxdb2-project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
