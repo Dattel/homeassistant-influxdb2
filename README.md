@@ -40,6 +40,7 @@ This is an active open-source project. Please use the code or contribute to it.
 
 ## Authors & contributors
 
+This repository is maintained by [Daniel][dattel]
 The original idea behind the InfluxDB2 Addon setup is by [Jay Antoney][jantoney]. \
 However I used the InfluxDB v1.x add-on from [Franck Nijhof][frenck] for some inspiration.
 
@@ -50,7 +51,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2023 Danie Tammer
+Copyright (c) 2023 Daniel Tammer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -71,6 +72,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [Influxdbv1]: https://github.com/hassio-addons/addon-influxdb
+[dattel]: https://github.com/dattel
 [jantoney]: https://github.com/jantoney
 [frenck]: https://github.com/frenck
 [contributors]: https://github.com/Dattel/homeassistant-influxdb2/graphs/contributors
