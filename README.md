@@ -66,3 +66,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [Influxdbv1]: https://github.com/hassio-addons/addon-influxdb
+[jantoney]: https://github.com/jantoney
+[frenck]: https://github.com/frenck
+[contributors]: https://github.com/Dattel/homeassistant-influxdb2/graphs/contributors
+[issue]: https://github.com/Dattel/homeassistant-influxdb2/issues
