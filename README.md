@@ -77,3 +77,4 @@ SOFTWARE.
 [issue]: https://github.com/Dattel/homeassistant-influxdb2/issues
 [githubDiscussions]: https://github.com/hassio-addons/addon-influxdb/discussions
 [discord-ha]: https://discord.com/invite/home-assistant
+[forum]: https://community.home-assistant.io/
