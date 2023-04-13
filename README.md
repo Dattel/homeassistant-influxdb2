@@ -26,7 +26,11 @@ It's useful for recording metrics, sensor data, events,
 and performing analytics. It exposes an HTTP API for client interaction and is
 often used in combination with Grafana to visualize the data.
 
-This add-on is built on the InfluxDB v2.x build.
+This add-on is built on the InfluxDB v2.x build. \
+If you're after the InfluxDB V1.x build - check out this other add-on [Here][Influxdbv1]
+
+[WorkInProgress:Read the full add-on documentation][docs]
+
 
 ## FAQ
 - Why make another add-on and why not just upgrade the current [InfluxDB v1.x Community Add-on][Influxdbv1]?
@@ -92,6 +96,7 @@ SOFTWARE.
 [jantoney]: https://github.com/jantoney
 [frenck]: https://github.com/frenck
 [contributors]: https://github.com/Dattel/homeassistant-influxdb2/graphs/contributors
+[docs]: https://github.com/Dattel/homeassistant-influxdb2/blob/main/influxdb2/DOCS.md
 [issue]: https://github.com/Dattel/homeassistant-influxdb2/issues
 [githubDiscussions]: https://github.com/hassio-addons/addon-influxdb/discussions
 [discord-ha]: https://discord.com/invite/home-assistant
