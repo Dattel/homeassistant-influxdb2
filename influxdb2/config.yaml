@@ -1,6 +1,6 @@
 ---
 name: InfluxDB2
-version: 0.0.2
+version: 0.0.3
 slug: influxdb2
 description: Scalable datastore for metrics, events, and real-time analytics. Running InfluxDB v2.x.
 url: https://github.com/Dattel/homeassistant-influxdb2
