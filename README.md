@@ -113,6 +113,6 @@ SOFTWARE.
 [influxdb2-commits-shield]: https://img.shields.io/github/commit-activity/y/Dattel/homeassistant-influxdb2.svg
 
 [influxdb2-maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
-[influxdb2-project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
+[influxdb2-project-stage-shield]: https://img.shields.io/badge/project%20stage-Early%20stage-yellow.svg
 [influxdb2-license-shield]: https://img.shields.io/github/license/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
 [commits]: https://github.com/Dattel/homeassistant-influxdb2/commits/main
