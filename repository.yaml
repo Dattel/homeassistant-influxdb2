@@ -1,3 +1,5 @@
-name: Dattels repository for Homeassistant Addons
-url: https://github.com/Dattel/homeassistant-influxdb2
-maintainer: Dattel
+{
+  "name": "Dattels repository for InfluxDB2 Homeassistant Addons",
+  "url": "https://github.com/Dattel/homeassistant-influxdb2",
+  "maintainer": "Dattel"
+}
