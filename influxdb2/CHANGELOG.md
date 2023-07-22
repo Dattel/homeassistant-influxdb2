@@ -1,4 +1,4 @@
-## What’s changed - Release v0.0.5
+## What’s changed - Release v0.0.6
 
 ## 🚀 Enhancements
 
@@ -10,10 +10,11 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Add-on base image to v6.2.7
+- ⬆️ Update Add-on base image to v7.0.0
 
 ## 📖 Full v0 Branch Changes
 
+- v0.0.5 - Update Add-on base image to v7.0.0
 - v0.0.5 - Update Add-on base image to v6.2.7
 - v0.0.4 - removed temporary i386 build because no precompiled DEB found :-(
 - v0.0.3 - Added support for i386 build
