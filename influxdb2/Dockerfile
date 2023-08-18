@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/amd64:7.0.0
+ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/amd64:7.1.0
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -12,6 +12,7 @@ RUN \
     apt-get update \
     && ARCH="${BUILD_ARCH}" \
     && if [ "${BUILD_ARCH}" = "aarch64" ]; then ARCH="arm64"; fi \
+    && if [ "${BUILD_ARCH}" = "armhf" ]; then ARCH="arm64"; fi \
     \
     && INFLUXDB="2.7.1" \
     && curl -J -L -o /tmp/influxdb2.deb \

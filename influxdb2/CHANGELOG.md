@@ -1,19 +1,20 @@
-## What’s changed - Release v0.0.6
+## What’s changed - Release v0.0.7
 
 ## 🚀 Enhancements
 
-- Nill
+- added support for armhf
 
 ## 🧰 Maintenance
 
-- Nill
+- changing http-[read|write]-timeout to 300s
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Add-on base image to v7.0.0
+- ⬆️ Update Add-on base image to v7.1.0
 
 ## 📖 Full v0 Branch Changes
 
+- v0.0.7 - Update Add-on base image to v7.1.0, added support for armhf, http-[read|write]-timeout to 300s
 - v0.0.6 - Update Add-on base image to v7.0.0
 - v0.0.5 - Update Add-on base image to v6.2.7
 - v0.0.4 - removed temporary i386 build because no precompiled DEB found :-(
