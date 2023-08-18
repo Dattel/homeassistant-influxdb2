@@ -14,7 +14,6 @@
 ![Project Maintenance][influxdb2-maintenance-shield]
 [![GitHub Activity][influxdb2-commits-shield]][commits]
 
-
 Homeassistant Addon for InfluxDB2
 
 Scalable datastore for metrics, events, and real-time analytics.
@@ -31,8 +30,8 @@ If you're after the InfluxDB V1.x build - check out this other add-on [Here][Inf
 
 [WorkInProgress:Read the full add-on documentation][docs]
 
-
 ## FAQ
+
 - Why make another add-on and why not just upgrade the current [InfluxDB v1.x Community Add-on][Influxdbv1]?
   - The upgrade path from V1.x to V2.x requires access to the command line and isn't a very user friendly process. So I decided to create a new add-on and start from there.
 - This doesn't support Home Assistant Ingress web interface - why not?
@@ -56,7 +55,6 @@ You could also [open an issue here][issue] on GitHub.
 ## Contributing
 
 This is an active open-source project. Please use the code or contribute to it.
-
 
 ## Authors & contributors
 
@@ -101,17 +99,15 @@ SOFTWARE.
 [githubDiscussions]: https://github.com/hassio-addons/addon-influxdb/discussions
 [discord-ha]: https://discord.com/invite/home-assistant
 [forum]: https://community.home-assistant.io/
-
 [influxdb2-local-build]: https://img.shields.io/badge/Home%20Assistant%20--%20local%20build-YES-orange.svg
 [influxdb2-ingressSupport]: https://img.shields.io/badge/Home%20Assistant%20--%20ingress%20support-NO-red
 [influxdb2-aarch64-shield]: https://img.shields.io/badge/aarch64-untested-orange.svg
 [influxdb2-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[influxdb2-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-untested-orange.svg
+[influxdb2-armv7-shield]: https://img.shields.io/badge/armv7-untested-orange.svg
 [influxdb2-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [influxdb2-releases-shield]: https://img.shields.io/github/v/release/Dattel/homeassistant-influxdb2.svg
 [influxdb2-commits-shield]: https://img.shields.io/github/commit-activity/y/Dattel/homeassistant-influxdb2.svg
-
 [influxdb2-maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [influxdb2-project-stage-shield]: https://img.shields.io/badge/project%20stage-Early%20stage-yellow.svg
 [influxdb2-license-shield]: https://img.shields.io/github/license/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
