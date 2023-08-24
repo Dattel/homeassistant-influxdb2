@@ -103,8 +103,8 @@ SOFTWARE.
 [influxdb2-ingressSupport]: https://img.shields.io/badge/Home%20Assistant%20--%20ingress%20support-NO-red
 [influxdb2-aarch64-shield]: https://img.shields.io/badge/aarch64-untested-orange.svg
 [influxdb2-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-yes-orange.svg
-[influxdb2-armv7-shield]: https://img.shields.io/badge/armv7-yes-orange.svg
+[influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[influxdb2-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [influxdb2-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [influxdb2-releases-shield]: https://img.shields.io/github/v/release/Dattel/homeassistant-influxdb2.svg
 [influxdb2-commits-shield]: https://img.shields.io/github/commit-activity/y/Dattel/homeassistant-influxdb2.svg
