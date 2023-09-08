@@ -46,6 +46,11 @@ docker exec addon_a0d7b954_influxdb \
 ```
 ### Importing 1.X File to 2.X
 
+The following steps only works for supervised installations.
+
+For HassIO please have a look as https://github.com/hassio-addons/addon-influxdb/discussions/113#discussioncomment-6947661 (many thanks to https://github.com/mbalasz for the documentation)
+
+
 I would suggest, opening a direct shell to the new container. I had some timeouts during import if i execute these the same "docker exec.." way as the export works
 replace @token@ and @orgid@ with your values
 
