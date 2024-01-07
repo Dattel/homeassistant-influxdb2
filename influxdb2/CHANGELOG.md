@@ -1,4 +1,4 @@
-## What’s changed - Release v0.0.8
+## What’s changed - Release v0.0.9
 
 ## 🚀 Enhancements
 
@@ -6,14 +6,15 @@
 
 ## 🧰 Maintenance
 
-- 🧰 Update InfluxDB 2.7.3, InfluxCLI 2.7.3,
+- 🧰 Update InfluxDB 2.7.5
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Add-on base image to v7.2.0
+- ⬆️ Update Add-on base image to v7.3.1
 
 ## 📖 Full v0 Branch Changes
 
+- v0.0.9 - Update Add-on base image to v7.3.1, InfluxDB 2.7.5
 - v0.0.8 - Update Add-on base image to v7.2.0, InfluxDB 2.7.3, InfluxCLI 2.7.3,
 - v0.0.7 - Update Add-on base image to v7.1.0, added support for armhf, http-[read|write]-timeout to 300s
 - v0.0.6 - Update Add-on base image to v7.0.0

@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/amd64:7.2.0
+ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/amd64:7.3.1
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -14,12 +14,13 @@ RUN \
     && if [ "${BUILD_ARCH}" = "aarch64" ]; then ARCH="arm64"; fi \
     && if [ "${BUILD_ARCH}" = "armhf" ]; then ARCH="arm64"; fi \
     \
-    && INFLUXDB="2.7.3" \
+    && INFLUXDB="2.7.5" \
+    && INFLUXCLI="2.7.3" \
     && curl -J -L -o /tmp/influxdb2.deb \
     "https://dl.influxdata.com/influxdb/releases/influxdb2_${INFLUXDB}-1_${ARCH}.deb" \
     \
     && curl -J -L -o /tmp/influxdb-cli.deb \
-    "https://dl.influxdata.com/influxdb/releases/influxdb2-client-${INFLUXDB}-${ARCH}.deb" \
+    "https://dl.influxdata.com/influxdb/releases/influxdb2-client-${INFLUXCLI}-${ARCH}.deb" \
     && dpkg --install /tmp/influxdb2.deb \
     && dpkg --install /tmp/influxdb-cli.deb \
     \
