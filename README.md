@@ -114,7 +114,7 @@ SOFTWARE.
 [influxdb2-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [influxdb2-releases-shield]: https://img.shields.io/github/v/release/Dattel/homeassistant-influxdb2.svg
 [influxdb2-commits-shield]: https://img.shields.io/github/commit-activity/y/Dattel/homeassistant-influxdb2.svg
-[influxdb2-maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
+[influxdb2-maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [influxdb2-project-stage-shield]: https://img.shields.io/badge/project%20stage-Early%20stage-yellow.svg
 [influxdb2-license-shield]: https://img.shields.io/github/license/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
 [commits]: https://github.com/Dattel/homeassistant-influxdb2/commits/main
