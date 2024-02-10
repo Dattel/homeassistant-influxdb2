@@ -1,6 +1,6 @@
 ---
 name: InfluxDB2
-version: 0.0.9
+version: 0.1.0.0
 slug: influxdb2
 description: Scalable datastore for metrics, events, and real-time analytics. Running InfluxDB v2.x on ARCH64 and ARM64 Achitecture
 url: https://github.com/Dattel/homeassistant-influxdb2
@@ -22,6 +22,8 @@ ports:
 ports_description:
   8086/tcp: InfluxDB server
 options:
+  log_level: info
+  influxd_log_level: warn
   reporting: true
   ssl: false
   certfile: fullchain.pem
@@ -29,6 +31,7 @@ options:
   envvars: []
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  influxd_log_level: list(debug|info|warn|error)?
   reporting: bool
   ssl: bool
   certfile: str
