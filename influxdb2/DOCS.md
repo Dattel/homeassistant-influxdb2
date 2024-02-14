@@ -155,6 +155,25 @@ influx write \
 	--file "/share/influxdb/home_assistant/export" \
 ```
 
+### Migration from official Influxdb Addon
+```bash
+docker ps -a # Descibe the containers running and finding the Ids.
+docker exec -it addon_xxxxx_influxdb /bin/bash # Enter the v1 container. Replace addon_xxxxx_influxdb with the v1 Id
+influx_inspect export -compress -database homeassistant -out /data/exports/influxdb.gz -lponly -datadir /data/influxdb/data -waldir /data/influxdb/wal # Export the influxdb timeseries data
+exit # Exit container to host
+docker cp addon_xxxxx_influxdb:/data/exports/influxdb.gz /root/ # Copy the backup to host
+docker cp /root/influxdb.gz addon_xxxxx_influxdbv2:/data/influxdb.gz # Copy the backup to the v2 container (Make sure it's started)
+docker exec -it addon_xxxxx_influxdbv2 /bin/bash # Enter the v2 container. Replace addon_xxxxx_influxdbv2 with the v2 Id
+influx write \
+  --org-id homeassistant \
+  --bucket homeassistant \
+  --file /data/influxdb.gz \
+  --token TOKEN # Replace TOKEN with your InfluxDB2 token.
+rm /data/influxdb.gz # Remove backup from v2 container
+exit
+rm /influxdb.gz # Remove backup from host
+```
+
 ## V1 Kompatiblität
 
 If you need v1.x compatiblity for e.g. grafana, you have to create a retention policy for the database and a user for authentification. Replace the @bucket@ with
