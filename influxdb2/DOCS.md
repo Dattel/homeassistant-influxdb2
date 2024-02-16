@@ -16,24 +16,24 @@ Just click this link and follow the instructions to add the repository
 
 ## First Run
 
-Make sure, that the required port `8086` is not in use by another Addon (InfluxDB) or just alter it to another port. I'm going with `8087`. You can just change the post in the addon configurations.
+Make sure, that the required port `8086` is not in use by another Addon (e.g. official InfluxDB1) or just alter it to another port. I'm going fine with `8087`. You can just change the post in the addon configurations.
+
+![](../doc-pics/config1.jpg)
 
 After the plugin has been started, please navigate to it's landing page by replacing the ip and the port in the following URL:
 http://192.168.1.x:8087
 
-On the first run, you have to create a `username`, `password`.
+On the first run, you have to fill in a `Username`, `Password`, `Organization Name` and `Bucket Name`.
+![](../doc-pics/setup1.jpg)
 
 If you are presented with an `API-Token` please note it down, you will need it later in your homeassistant configuration
-
-Afterwards you need to create an `orgID` and a `bucket`.
+![](../doc-pics/setup2.jpg)
 
 ## Configuration
 
 Adding the following snippets to your `secrets.yaml` and alter it on your needs.
 Your ORG-ID can be obtained by reading it from your URL:
 (http://192.168.178.1:8087/orgs/\<ORGID\>)
-
-The API-Token should be written down during the first run.
 
 ```yaml
 influx_apiToken: <your API-Token>
@@ -91,6 +91,7 @@ influxdb:
 
 - log_level : setting up a general loglevel for the plugin
 - influxd_log_level : you can set up your separate loglevel for the influxd service. thats because the service supports less options as log_level and they are named different
+- InfluxDB server: defines the PORT on which the InfluxDB is accessable beside the INGRESS Implementation without HomeAssistant
 
 ## Integration into Homeassistant
 
@@ -98,7 +99,7 @@ The plugin is started and updated as homeassistant addon.
 
 ## Known issues and limitations
 
-Currently there is no working way to use ingress for the influxdb2 frontent. You have to open the frontend in a separate window.
+The current INGRESS Implementation is on an early stage. If you find any bugs, lets me know.
 
 ## Changelog & Releases
 
