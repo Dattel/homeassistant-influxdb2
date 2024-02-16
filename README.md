@@ -56,7 +56,7 @@ You could also [open an issue here][issue] on GitHub.
 
 Just click this link and follow the instructions to add the repository
 
-<a href="https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fdattel%2Fhomeassistant-influxdb2"><img src="https://my.home-assistant.io/badges/supervisor_addon.svg" target="_blank"></img></a>
+<a href="https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fdattel%2Fhomeassistant-influxdb2"><img src="https://my.home-assistant.io/badges/supervisor_addon.svg" target="_blank"></img><a/>
 
 ## Contributing
 
