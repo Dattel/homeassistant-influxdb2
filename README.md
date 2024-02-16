@@ -106,7 +106,7 @@ SOFTWARE.
 [discord-ha]: https://discord.com/invite/home-assistant
 [forum]: https://community.home-assistant.io/
 [influxdb2-local-build]: https://img.shields.io/badge/Home%20Assistant%20--%20local%20build-YES-orange.svg
-[influxdb2-ingressSupport]: https://img.shields.io/badge/Home%20Assistant%20--%20ingress%20support-NO-red
+[influxdb2-ingressSupport]: https://img.shields.io/badge/Home%20Assistant%20--%20ingress%20support-experimental-yellow
 [influxdb2-aarch64-shield]: https://img.shields.io/badge/aarch64-untested-orange.svg
 [influxdb2-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
