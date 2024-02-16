@@ -1,0 +1,20 @@
+server {
+    listen 80 default_server;
+
+    include /etc/nginx/includes/server_params.conf;
+    include /etc/nginx/includes/proxy_params.conf;
+
+    access_log /proc/1/fd/1;
+
+    location / {
+        access_by_lua_file /etc/nginx/lua/ha-auth.lua;
+        proxy_pass http://backend%%ingress_entry%%/;
+        sub_filter_once off;
+        sub_filter '%%ingress_entry%%/'  '';
+    }
+
+    location %%ingress_entry%%/ {
+        access_by_lua_file /etc/nginx/lua/ha-auth.lua;
+        proxy_pass http://backend;
+    }
+}
