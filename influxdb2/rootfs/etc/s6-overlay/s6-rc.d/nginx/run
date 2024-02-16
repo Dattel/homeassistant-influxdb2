@@ -8,4 +8,4 @@ bashio::net.wait_for 8086 localhost 9000
 
 bashio::log.info "Starting NGINX..."
 
-exec nginx
+#exec nginx
