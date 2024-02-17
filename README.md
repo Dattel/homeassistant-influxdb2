@@ -34,8 +34,6 @@ If you're after the InfluxDB V1.x build - check out this other add-on [Here][Inf
 
 - Why make another add-on and why not just upgrade the current [InfluxDB v1.x Community Add-on][Influxdbv1]?
   - The upgrade path from V1.x to V2.x requires access to the command line and isn't a very user friendly process. So I decided to create a new add-on and start from there.
-- This doesn't support Home Assistant Ingress web interface - why not?
-  - Unfortunately the way the ingress works requires the application to support a Base URL rewrite of some form and the InfluxDB2 project currently doesn't.
 - Are kapacitor and chronograf both still avaliable in this build?
   - No, neither are included as InfluxDB2 now includes a UI and most features from these other packages.
 
