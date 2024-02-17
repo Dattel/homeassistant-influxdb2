@@ -43,7 +43,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- Try the [discussion page][githubDiscussions] here on GitHub. NOTE: this discussion page is not related with these plugin
+- Try the [discussion page][githubDiscussions] here on GitHub - or try the [hassio discussion page][githubDiscussions-general].
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions
 - The Home Assistant [Community Forum][forum].
@@ -100,7 +100,8 @@ SOFTWARE.
 [contributors]: https://github.com/Dattel/homeassistant-influxdb2/graphs/contributors
 [docs]: https://github.com/Dattel/homeassistant-influxdb2/blob/main/influxdb2/DOCS.md
 [issue]: https://github.com/Dattel/homeassistant-influxdb2/issues
-[githubDiscussions]: https://github.com/hassio-addons/addon-influxdb/discussions
+[githubDiscussions-general]: https://github.com/hassio-addons/addon-influxdb/discussions
+[githubDiscussions]: https://github.com/Dattel/homeassistant-influxdb2/discussions
 [discord-ha]: https://discord.com/invite/home-assistant
 [forum]: https://community.home-assistant.io/
 [influxdb2-local-build]: https://img.shields.io/badge/Home%20Assistant%20--%20local%20build-YES-orange.svg
