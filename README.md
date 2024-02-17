@@ -43,7 +43,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- Try the [discussion page][githubDiscussions] here on GitHub
+- Try the [discussion page][githubDiscussions] here on GitHub. NOTE: this discussion page is not related with these plugin
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions
 - The Home Assistant [Community Forum][forum].
