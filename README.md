@@ -34,8 +34,6 @@ If you're after the InfluxDB V1.x build - check out this other add-on [Here][Inf
 
 - Why make another add-on and why not just upgrade the current [InfluxDB v1.x Community Add-on][Influxdbv1]?
   - The upgrade path from V1.x to V2.x requires access to the command line and isn't a very user friendly process. So I decided to create a new add-on and start from there.
-- This doesn't support Home Assistant Ingress web interface - why not?
-  - Unfortunately the way the ingress works requires the application to support a Base URL rewrite of some form and the InfluxDB2 project currently doesn't.
 - Are kapacitor and chronograf both still avaliable in this build?
   - No, neither are included as InfluxDB2 now includes a UI and most features from these other packages.
 
@@ -45,7 +43,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- Try the [discussion page][githubDiscussions] here on GitHub
+- Try the [discussion page][githubDiscussions] here on GitHub - or try the [hassio discussion page][githubDiscussions-general].
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions
 - The Home Assistant [Community Forum][forum].
@@ -105,7 +103,8 @@ SOFTWARE.
 [contributors]: https://github.com/Dattel/homeassistant-influxdb2/graphs/contributors
 [docs]: https://github.com/Dattel/homeassistant-influxdb2/blob/main/influxdb2/DOCS.md
 [issue]: https://github.com/Dattel/homeassistant-influxdb2/issues
-[githubDiscussions]: https://github.com/hassio-addons/addon-influxdb/discussions
+[githubDiscussions-general]: https://github.com/hassio-addons/addon-influxdb/discussions
+[githubDiscussions]: https://github.com/Dattel/homeassistant-influxdb2/discussions
 [discord-ha]: https://discord.com/invite/home-assistant
 [forum]: https://community.home-assistant.io/
 [influxdb2-local-build]: https://img.shields.io/badge/Home%20Assistant%20--%20local%20build-YES-orange.svg
