@@ -71,6 +71,9 @@ However we are both using the InfluxDB v1.x add-on from [Franck Nijhof][frenck] 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
 
+Special Thanks to [@smoki3](https://github.com/Dattel/homeassistant-influxdb2/issues/5) for "forcing" me to spend my time on making INGRESS work :-D
+
+
 ## License
 
 MIT License
