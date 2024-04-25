@@ -1,4 +1,4 @@
-## What’s changed - Release v0.2.0
+## What’s changed - Release v0.2.1
 
 ## 🚀 Enhancements
 
@@ -6,7 +6,7 @@
 
 ## 🧰 Maintenance
 
-- 🧰 InfluxDB 2.7.6
+- 🧰 Update InfluxCLI 2.7.5
 
 ## ⬆️ Dependency updates
 
@@ -14,6 +14,7 @@
 
 ## 📖 Full v0 Branch Changes
 
+- v0.2.1 - Update InfluxCLI 2.7.5
 - v0.2.0 - Update InfluxDB 2.7.6
 - v0.1.1 - added INGRESS-Support for Influx Frontend, base image to v7.3.3
 - v0.1.0 - added Configuration "influxd_log_level" to Control Detail of the influxd Service

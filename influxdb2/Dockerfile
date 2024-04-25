@@ -19,7 +19,7 @@ RUN \
     && if [ "${BUILD_ARCH}" = "armhf" ]; then ARCH="arm64"; fi \
     \
     && INFLUXDB="2.7.6" \
-    && INFLUXCLI="2.7.3" \
+    && INFLUXCLI="2.7.5" \
     && curl -J -L -o /tmp/influxdb2.deb \
     "https://dl.influxdata.com/influxdb/releases/influxdb2_${INFLUXDB}-1_${ARCH}.deb" \
     \
