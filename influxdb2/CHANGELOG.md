@@ -6,11 +6,11 @@
 
 ## 🧰 Maintenance
 
-- 🧰 Update InfluxCLI 2.7.5
+- 🧰 none
 
 ## ⬆️ Dependency updates
 
-- ⬆️ none
+- ⬆️ Update Add-on base image to v7.3.4
 
 ## 📖 Full v0 Branch Changes
 
