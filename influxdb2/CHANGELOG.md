@@ -1,4 +1,4 @@
-## What’s changed - Release v0.2.2
+## What’s changed - Release v0.2.3
 
 ## 🚀 Enhancements
 
@@ -6,14 +6,15 @@
 
 ## 🧰 Maintenance
 
-- 🧰 none
+- 🧰 InfluxDB 2.7.7
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Add-on base image to v7.3.4
+- ⬆️ Update Add-on base image to v7.4.0
 
 ## 📖 Full v0 Branch Changes
 
+- v0.2.3 - Update Add-on base image to v7.4.0, InfluxDB 2.7.7
 - v0.2.2 - Update Add-on base image to v7.3.4
 - v0.2.1 - Update InfluxCLI 2.7.5
 - v0.2.0 - Update InfluxDB 2.7.6
