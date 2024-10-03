@@ -55,7 +55,7 @@ influxdb:
   organization: !secret influx_orgID
   bucket: home_assistant
   ssl: false
-  veryify_ssl: false
+  verify_ssl: false
   ignore_attributes:
     - device_class
     - device_type
