@@ -6,7 +6,8 @@
 
 ## 🧰 Maintenance
 
-- 🧰 Update Add-on base image to v7.6.1
+- 🧰 Update Add-on base image to v7.6.2
+- 🧰 Update InfluxDB 2.7.11
 
 ## ⬆️ Dependency updates
 
@@ -14,6 +15,7 @@
 
 ## 📖 Full v0 Branch Changes
 
+- v0.2.7 - Update Add-on base image to v7.6.2, InfluxDB 2.7.11
 - v0.2.6 - Update Add-on base image to v7.6.1
 - v0.2.5 - InfluxDB 2.7.10, Update Add-on base image to v7.5.0
 - v0.2.4 - InfluxDB 2.7.8
