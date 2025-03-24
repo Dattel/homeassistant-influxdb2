@@ -7,6 +7,7 @@
 [![License][influxdb2-license-shield]](LICENSE.md)
 
 ![Supports amd64 Architecture][influxdb2-amd64-shield]
+![Supports armv64 Architecture][influxdb2-armv64-shield]
 ![Supports aarch64 Architecture][influxdb2-aarch64-shield]
 ![Supports armhf Architecture][influxdb2-armhf-shield]
 ![Supports armv7 Architecture][influxdb2-armv7-shield]
@@ -71,7 +72,6 @@ check [the contributor's page][contributors].
 
 Special Thanks to [@smoki3](https://github.com/Dattel/homeassistant-influxdb2/issues/5) for "forcing" me to spend my time on making INGRESS work :-D
 
-
 ## License
 
 MIT License
@@ -109,10 +109,11 @@ SOFTWARE.
 [forum]: https://community.home-assistant.io/
 [influxdb2-local-build]: https://img.shields.io/badge/Home%20Assistant%20--%20local%20build-YES-orange.svg
 [influxdb2-ingressSupport]: https://img.shields.io/badge/Home%20Assistant%20--%20ingress%20support-experimental-yellow
-[influxdb2-aarch64-shield]: https://img.shields.io/badge/aarch64-untested-orange.svg
 [influxdb2-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[influxdb2-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[influxdb2-arm64-shield]: https://img.shields.io/badge/arm64-yes-green.svg
+[influxdb2-aarch64-shield]: https://img.shields.io/badge/aarch64-untested-orange.svg
+[influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-untested-orange.svg
+[influxdb2-armv7-shield]: https://img.shields.io/badge/armv7-untested-orange.svg
 [influxdb2-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [influxdb2-releases-shield]: https://img.shields.io/github/v/release/Dattel/homeassistant-influxdb2.svg
 [influxdb2-commits-shield]: https://img.shields.io/github/commit-activity/y/Dattel/homeassistant-influxdb2.svg
