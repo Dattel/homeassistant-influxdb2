@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/amd64:7.6.2
+ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/amd64:7.8.0
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -11,7 +11,7 @@ ARG BUILD_ARCH=amd64
 RUN \
     apt-get update \
     && apt-get install -y --no-install-recommends \
-        nginx=1.22.1-9 \
+        nginx=1.22.1-9* \
         procps=2:4.0.2-3 \
     \
     && ARCH="${BUILD_ARCH}" \

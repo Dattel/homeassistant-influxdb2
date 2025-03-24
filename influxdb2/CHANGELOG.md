@@ -1,4 +1,4 @@
-## What’s changed - Release v0.2.6
+## What’s changed - Release v0.2.8
 
 ## 🚀 Enhancements
 
@@ -6,7 +6,7 @@
 
 ## 🧰 Maintenance
 
-- 🧰 Update Add-on base image to v7.6.2
+- 🧰 Update Add-on base image to v7.8.0
 - 🧰 Update InfluxDB 2.7.11
 
 ## ⬆️ Dependency updates
