@@ -7,7 +7,7 @@
 [![License][influxdb2-license-shield]](LICENSE.md)
 
 ![Supports amd64 Architecture][influxdb2-amd64-shield]
-![Supports armv64 Architecture][influxdb2-armv64-shield]
+![Supports armv64 Architecture][influxdb2-arm64-shield]
 ![Supports aarch64 Architecture][influxdb2-aarch64-shield]
 ![Supports armhf Architecture][influxdb2-armhf-shield]
 ![Supports armv7 Architecture][influxdb2-armv7-shield]
