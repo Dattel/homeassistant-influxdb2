@@ -1,4 +1,4 @@
-## What’s changed - Release v0.2.8
+## What’s changed - Release v0.2.9
 
 ## 🚀 Enhancements
 
@@ -6,8 +6,8 @@
 
 ## 🧰 Maintenance
 
-- 🧰 Update Add-on base image to v7.8.0
-- 🧰 Update InfluxDB 2.7.11
+- 🧰 Update Add-on base image to v7.8.3
+- 🧰 Update InfluxDB 2.7.12
 
 ## ⬆️ Dependency updates
 
@@ -15,6 +15,8 @@
 
 ## 📖 Full v0 Branch Changes
 
+- v0.2.9 - Update Add-on base image to v7.8.3, InfluxDB 2.7.12
+- v0.2.8 - Update Add-on base image to v7.8.0, InfluxDB 2.7.11
 - v0.2.7 - Update Add-on base image to v7.6.2, InfluxDB 2.7.11
 - v0.2.6 - Update Add-on base image to v7.6.1
 - v0.2.5 - InfluxDB 2.7.10, Update Add-on base image to v7.5.0
