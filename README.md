@@ -70,7 +70,8 @@ However we are both using the InfluxDB v1.x add-on from [Franck Nijhof][frenck] 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
 
-Special Thanks to [@smoki3](https://github.com/Dattel/homeassistant-influxdb2/issues/5) for "forcing" me to spend my time on making INGRESS work :-D
+The main-work and idea for [nginx-custombasepath] came from [alv000h] and [memetb]. A big thank you to both!!! \
+[@smoki3](https://github.com/Dattel/homeassistant-influxdb2/issues/5) was the final guy, who was "forcing" me to spend time on making INGRESS finally work :-D
 
 ## License
 
@@ -99,6 +100,9 @@ SOFTWARE.
 [Influxdbv1]: https://github.com/hassio-addons/addon-influxdb
 [dattel]: https://github.com/dattel
 [jantoney]: https://github.com/jantoney
+[alv000h]:https://github.com/alv000h
+[memetb]:https://github.com/memetb
+[nginx-custombasepath]:https://github.com/influxdata/influxdb/issues/15721
 [frenck]: https://github.com/frenck
 [contributors]: https://github.com/Dattel/homeassistant-influxdb2/graphs/contributors
 [docs]: https://github.com/Dattel/homeassistant-influxdb2/blob/main/influxdb2/DOCS.md
