@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/amd64:7.8.3
+ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base/amd64:9.2.0
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -11,17 +11,18 @@ ARG BUILD_ARCH=amd64
 RUN \
     apt-get update \
     && apt-get install -y --no-install-recommends \
-        nginx=1.22.1-9* \
-        procps=2:4.0.2-3 \
+        nginx-core \
+        libproc2-0\
     \
     && ARCH="${BUILD_ARCH}" \
     && if [ "${BUILD_ARCH}" = "aarch64" ]; then ARCH="arm64"; fi \
     && if [ "${BUILD_ARCH}" = "armhf" ]; then ARCH="arm64"; fi \
     \
-    && INFLUXDB="2.7.12" \
+    && INFLUXDB="2.8.0" \
     && INFLUXCLI="2.7.5" \
     && curl -J -L -o /tmp/influxdb2.deb \
-    "https://dl.influxdata.com/influxdb/releases/v${INFLUXDB}/influxdb2_${INFLUXDB}-1_${ARCH}.deb" \
+    #"https://dl.influxdata.com/influxdb/releases/v${INFLUXDB}/influxdb2_${INFLUXDB}-1_${ARCH}.deb" \
+    "https://repos.influxdata.com/ubuntu/packages/influxdb2_${INFLUXDB}-1_${ARCH}.deb" \
     \
     && curl -J -L -o /tmp/influxdb-cli.deb \
     "https://dl.influxdata.com/influxdb/releases/influxdb2-client-${INFLUXCLI}-${ARCH}.deb" \
