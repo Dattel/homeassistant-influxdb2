@@ -11,8 +11,8 @@ ARG BUILD_ARCH=amd64
 RUN \
     apt-get update \
     && apt-get install -y --no-install-recommends \
-        nginx-core \
-        libproc2-0\
+    nginx-core=1.26.3-3* \
+    libproc2-0=2:4.0.4-9\
     \
     && ARCH="${BUILD_ARCH}" \
     && if [ "${BUILD_ARCH}" = "aarch64" ]; then ARCH="arm64"; fi \
